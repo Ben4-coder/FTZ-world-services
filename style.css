@@ -39,11 +39,11 @@ body{
 
                             /**top-right-login-container**/
 
-.login-container{
-    background-color: #3a5c9c;
+.top-right-container{
+    background-color: #3d5f8d;
     padding-left: 8px;
     padding-right: 8px;
-    height: 24px;
+    height: 25px;
     /* max-width: 310px; */
     width: 35%;
     display: inline-flex;
@@ -52,7 +52,7 @@ body{
     align-self: flex-end;
     /* white-space: nowrap; */
 }
-.login-para{
+.a-link{
     color: #ffffff;
     font-family: Noto Sans JP;
     font-size: 60%;
@@ -97,17 +97,7 @@ body{
     overflow-y: hidden;
 }
 
-/* .nav-items-service{
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    align-self: flex-end;
-    align-items: center;
-    height: 100%;
-    margin-right: 5px;
-} */
-
-.logo{
+.ftz-logo{
     width: 220px;
     height: 152px;
     position: absolute;
@@ -133,9 +123,6 @@ body{
     color: #ffffff;
 }
 
-
-
-
                             /**** main-heading-container ****/
 
 .heading-container{
@@ -146,7 +133,7 @@ body{
     height: 160px;
     background-image: linear-gradient(to bottom,transparent, rgba(0,0,0,0.5), rgba(0,0,0,0.3)) ;
 }
-.heading-home-page{
+.slogan-home-page{
     font-family: 'Col';
     letter-spacing: 10px;
     font-size: 36px;
@@ -186,7 +173,7 @@ body{
     padding-top: 5px;
     background-image: linear-gradient(to bottom,rgba(13, 8, 35, 0.8) , #10223a, #10223a, #10223a);
 }
-.title-cards-inner-container{
+.tile-main-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -197,7 +184,7 @@ body{
     padding-left: 27px;
     padding-right: 28px;
 }
-.title-card{
+.tile-card{
     display: flex;
     flex-direction: column;
     /* width: 278px; */
@@ -212,8 +199,8 @@ body{
     font-family: candara;
     line-height: 1.6;
     letter-spacing: 2px;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
 .tile{
     height: 124px;
@@ -312,7 +299,6 @@ body{
 .casestudy-img{
     margin-bottom: 10px;
     height: 120px;
-    /* width: 100%; */
     height: 124px;
     
 }
@@ -375,7 +361,6 @@ body{
 .horizontal-rule{
     border: 1px solid #535050;
     width: 100%;
-    /* margin-top: 18px; */
 }
 
 .contact-button{
